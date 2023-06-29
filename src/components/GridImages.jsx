@@ -17,15 +17,14 @@ const images = [
   "./assets/IM3A9358.jpg",
   "./assets/IMG_3689.JPG",
   "./assets/Me running.jpg",
-  "./assets/PastedGraphic-1.tiff"
 ];
 
 const GridImages = () => {
   return (
     <div className="main__container">
       <div className="row">
-        <div className="column">
-          {images.map(images => <img src={images} alt="" />)}
+        <div className="gallery">
+          {images.map(images => <img className="gallery_img" src={images} alt="Motion Images" />)}
         </div>
       </div>
     </div>

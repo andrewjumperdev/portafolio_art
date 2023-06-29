@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import GridImages from './components/GridImages';
 import Hearder from './components/Hearder';
 import Nav from './components/Nav';
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Hearder />
       <GridImages />
+      <Footer />
     </>
   );
 }
